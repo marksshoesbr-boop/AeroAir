@@ -1,0 +1,13 @@
+{
+  "name": "aeroair",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Viagens que cabem na sua agenda e no seu bolso",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
