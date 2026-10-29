@@ -6,7 +6,7 @@ Aplicativo para encontrar passagens de ida e volta a partir da disponibilidade d
 
 ## Estado atual
 
-Base inicial do projeto: especificação do MVP e motor de filtragem e ordenação com testes automatizados. **Ainda não há interface web, cadastro, consulta a companhias, preços reais ou aplicativo iOS publicado.** Os dados dos testes são fictícios.
+Base inicial do projeto: especificação do MVP e motor de filtragem e ordenação com testes automatizados. **Já há um protótipo web mobile na pasta `web/`, com dados fictícios. Ainda não há cadastro, consulta a companhias, preços reais ou aplicativo iOS publicado.** Os dados dos testes são fictícios.
 
 ## Executar os testes
 
@@ -37,3 +37,7 @@ O motor recebe ofertas completas de ida e volta para a rota solicitada, com valo
 5. Versão iOS após validação da experiência web.
 
 Código de domínio separado da interface para permitir reutilização. A estratégia de distribuição iOS ainda será definida; publicar na web não publica automaticamente na App Store.
+
+## Testar o protótipo web
+
+Execute `python -m http.server 8000 --directory web` e abra http://localhost:8000. Consulte [os fluxos e limites da simulação](docs/PROTOTIPO-WEB.md).
